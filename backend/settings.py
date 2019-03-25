@@ -126,8 +126,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CORS_ORIGIN_WHITELIST = (
-    'localhost:3000/',
-    'https://roomies-frontend.herokuapp.com'
+    'roomies-frontend.herokuapp.com'
 )
 # added to push to heroku
 
